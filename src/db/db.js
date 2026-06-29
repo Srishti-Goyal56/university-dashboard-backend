@@ -1,4 +1,6 @@
 const { Pool } = require('pg');
+require('dotenv').config();
+
 
 // We create a PostgreSQL connection pool using the DATABASE_URL environment variable.
 // A connection pool manages multiple database connections for us, reusing them to
